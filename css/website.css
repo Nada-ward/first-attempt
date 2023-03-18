@@ -1,0 +1,114 @@
+:root{
+    --primary-color:white;
+    --secondary-color:rgb(211, 66, 22);
+    --bg-color:black;
+}
+/* @media screen and (max-width:1007){
+.imgs .back{
+    display: none;
+}
+.nav ul a {
+    float: none;
+    width: 100%;
+}
+} */
+h1{
+    margin: 2rem;
+}
+
+span{
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+ 
+body{
+    background-color:var(--bg-color);
+    color: var(--primary-color);
+    line-height: 30px;
+    position: relative;
+    font-size: 18px;
+    margin-left: 10px;
+    letter-spacing: 1px;
+}
+
+ .nav ul{
+    position: absolute;
+    top: -34px ;
+    right: 231px;
+    list-style: none;
+    display: inline-flex;
+}
+
+ .nav ul li{
+    padding: 10px;
+    margin: 10px ;  
+}
+
+ul a{
+    text-decoration: none;
+    color: white;
+}
+ul a :hover,
+.icons a :hover{
+    color: var(--secondary-color);
+}
+
+.top{
+    position: absolute;
+    right: 25px;
+    top: 0;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    text-align: center;
+    font-style: italic;
+    border-radius: 50px;
+    padding: 10px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 11rem;
+}
+.one{
+    text-indent: 30px;
+    text-transform: capitalize;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 2.3rem;
+}
+
+.back{
+    position: absolute;
+    right: 116px;
+    bottom: -43px;
+}
+.back:hover{
+    opacity: 0.3;  
+}
+.front{
+     position: absolute; 
+     right: 4px;
+     bottom: -43px;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    background-color: var(--secondary-color);
+    border-radius: 40px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.icons a{
+    margin-left: 30px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: white;
+}
+img{
+    border-radius: 30px;
+}
